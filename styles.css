@@ -1,0 +1,249 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  color: currentColor;
+  text-decoration-line: none;
+}
+
+ul,ol,li
+{
+  list-style: none;
+}
+/* Jбнулення дефолтних стилів*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-accent {
+  color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-nav {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.header-contacts:hover {
+  color: #434455;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+#address {
+  font-style: normal;
+}
+
+.header-contacts-link {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-link:hover {
+  color: #404bbf;
+}
+.header-contacts-link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  font-family: inherit;
+  color: currentColor;
+ }
+.hero-btm 
+{
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btm:hover 
+{
+  background-color: #404BBF;
+}
+.hero-btm:focus 
+{
+  background-color: #404BBF;
+}
+/*section 1*/
+
+.feature-title {
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.team {
+  background: #fff;
+}
+.feature-item-name {
+  color: #2e2f42;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-item-descr {
+  color: #434455;
+  text-align: left;
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*sectio 2*/
+
+.team 
+{
+  background-color: #F4F4FD;
+}
+.title 
+{
+  background-color: #FFFFFF;
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-item-card
+{
+  background-color: #FFFFFF;
+  color: #2e2f42;
+}
+
+.team-item-name 
+{
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-item-profession 
+{
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section3*/
+
+.portfolio
+ {
+  background-color: #fff;
+}
+.portfolio-item
+{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-item-card
+{
+    font-size: 36px;
+    line-height: 1.11;
+}
+.portfolio-descr 
+{
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*footer*/
+
+.footer {
+  background: #2e2f42;
+}
+.footer-link {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-accent {
+  color: #f4f4fd;
+}
+
+.footer-descr {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: Roboto;
+}
