@@ -9,16 +9,12 @@
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"/>
-    <link
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <body>
@@ -59,20 +55,20 @@
     </div>
     </header>
 
-    <!--section hero image-->
+    <!--section 1 hero image-->
     <main>
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-    </div>
-     <div class="container-button">
-        <button class="hero-btm" type="button">Order Service</button>
+       <div class="container"> 
+      <h1 class="hero-title">Effective Solutions for Your Business</h1>
+      <button class="hero-btm" type="button">Order Service</button>
+       </div> 
       </section>
 
-      <!--section 1-->
+      <!--section 2-->
 
-      <section="feature">
-        <h2 class="feature-title">About us</h2>
+      <section class="feature">
         <div class="container">
+        <h2 class="feature-title">About us</h2>
         <ul class="feature-list">
           <li class="feature-item">
             <h3 class="feature-item-name">Strategy</h3>
@@ -109,19 +105,21 @@
         </div>
       </section>
 
-      <!--section 2-->
+      <!--section 3-->
       <section class="team">
-        
+<div class="container">
         <h2 class="title">Our Team</h2>
         <ul class="team-list">
-          <li class="team-item-card">
+            <li class="team-item-card">
             <img
               src="./images/img1.jpg"
               alt="Marc Guerrero.Product Designer"
               width="264"
             />
+            <div class=".container name">
             <h3 class="team-item-name">Mark Guerrero</h3>
             <p class="team-item-profession">Product Designer</p>
+          </div>
           </li>
           <li class="team-item-card">
             <img
@@ -129,8 +127,10 @@
               alt="Tom Ford.Frontend Developer"
               width="264"
             />
-            <h3 class="team-item-name">Tom Ford</h3>
+            <div class=".container name">
+              <h3 class="team-item-name">Tom Ford</h3>
             <p class="team-item-profession">Frontend Developer</p>
+            </div>
           </li>
 
           <li class="team-item-card">
@@ -139,8 +139,9 @@
               alt="Camila Garcia.Marketing"
               width="264"
             />
-            <h3 class="team-item-name">Camila Garcia</h3>
+            <div class=".container name"><h3 class="team-item-name">Camila Garcia</h3>
             <p class="team-item-profession">Marketing</p>
+          </div>
           </li>
 
           <li class="team-item-card">
@@ -149,14 +150,15 @@
               alt="Daniel Wilson. UI Designer"
               width="264"
             />
-            <h3 class="team-item-name">Daniel Wilson</h3>
+            <div class=".container name"><h3 class="team-item-name">Daniel Wilson</h3>
             <p class="team-item-profession">UI Designer</p>
+          </div>
           </li>
         </ul>
-        
+    </div>
       </section>
 
-      <!--section 3. Portfolio-->
+      <!--section 4. Portfolio-->
       <section class="portfolio">
         <h2 class="title">Our Portfolio</h2>
         <!--список-->
@@ -230,6 +232,7 @@
     </main>
 
     <!--footer-->
+    <div class="container">
     <footer class="footer">
       <a class="footer-link" href="./index.html"
         >Web <span class="footer-accent">Studio</span></a
@@ -239,5 +242,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+    </div>
   </body>
 </html>
