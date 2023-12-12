@@ -108,7 +108,8 @@ img {
 }
 
 .header-contacts-item:last-child {
-  margin-right: 0;
+  margin-right: 156px;
+  margin-left: 40px;
 }
 
 .header-contacts-list {
@@ -132,15 +133,17 @@ img {
   color: #404bbf;
 }
 
+
 .hero {
   background: #2e2f42;
-  padding: 188px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-container {
-  justify-content: center;
   background: #2e2f42;
   align-content: center;
+  justify-content: center;
   width: 1440px;
   flex-shrink: 0;
 }
@@ -156,7 +159,7 @@ img {
   max-width: 496px;
   display: flex;
   padding: 188px 0px 188px 0px;
-  margin: 188px 472px 188px 472px;
+  /*margin: 188px 472px 188px 472px;*/
 }
 
 .button {
@@ -179,13 +182,15 @@ img {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  align-items: flex-start;
+ 
   gap: 10px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  align-items: flex-start;
   justify-content: center;
   margin: 48px 163px 188px 167px;
+  display: block;
 }
 
 .hero-btm:hover {
@@ -197,23 +202,36 @@ img {
 /*section 2*/
 
 .feature {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.feature-title {
+/*.feature-title {
   color: #ffffff;
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+}*/
+
+.visually-hidden 
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
+
 .feature-list {
   display: flex;
   gap: 24px;
   margin-left: 156px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
 }
 
 .feature-list:first-child {
@@ -221,7 +239,7 @@ img {
 }
 
 .feature-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc (100% - 3 * 24px) / 4;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -253,7 +271,7 @@ img {
   padding: 120px 0;
 }
 .title {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -285,7 +303,7 @@ img {
   background-color: #ffffff;
   color: #2e2f42;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  width: calc (100% - 72px) / 4;
 }
 
 .team-item-name {
@@ -316,14 +334,24 @@ img {
 
 .portfolio {
   background-color: #fff;
+  padding: 120px 0 120px 0;
+}
+.portfolio-content
+{ /*margin-top: 32px;
+  margin-bottom: 8px;*/
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  boder-top: none;
+  
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  margin-top: 72px;
+  column-gap: 24px;
+  row-gap: 48 px;
+  /*margin-top: 72px;
   margin-left: 156px;
-  margin-right: 156px;
+  margin-right: 156px;*/
+  
 }
 .portfolio-item {
   font-weight: 500;
@@ -331,15 +359,19 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
+
 }
 
 .portfolio-item-card {
   font-size: 36px;
   line-height: 1.11;
-  border: 1px solid #e7e9fc;
-  width: calc(100%-24 * 2) / 3;
+  width: calc ((100% - 48px) / 3);
+  flex-wrap: wrap;
+  margin-left: 156px;
+  margin-right: 156px;
+ 
+  
 }
 .portfolio-descr {
   color: #434455;
@@ -360,7 +392,7 @@ img {
 }
 
 .footer-link {
-  display: inline-block;
+  display: block;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -370,7 +402,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 101.5px;
-  margin-right: 1240px;
+  margin-right: 156px;
   margin-bottom: 16px;
   margin-left: 156px;
 }
