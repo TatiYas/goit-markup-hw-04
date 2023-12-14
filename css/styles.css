@@ -271,7 +271,7 @@ img {
 .team-list:last-child {
   margin-right: 0px;
 }
-.container name container {
+.container name{
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -279,7 +279,7 @@ img {
   background-color: #ffffff;
   color: #2e2f42;
   border-radius: 0px 0px 4px 4px;
-  width: calc (100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-item-name {
@@ -313,7 +313,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio content container
+.portfolio content 
 { padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
