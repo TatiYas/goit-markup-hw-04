@@ -47,21 +47,25 @@ img {
   display: flex;
 }
 .header-item {
-  margin-right: 40px;
-  padding: 24px 0;
   align-items: center;
 }
-.header-item:last-child
-{ margin-right: 0px;}
+.header-item:last-child {
+  margin-right: 0px;
+}
 
+.header-link {
+  display: block;
+  margin-right: 40px;
+  padding: 24px 0;
+}
 .header-link:hover,
 .header-link:focus {
   display: block;
   color: #404bbf;
- 
 }
-.header 
-{ border-bottom: 1px solid #e7e9fc;}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
@@ -81,13 +85,12 @@ img {
   margin-right: auto;
   align-items: center;
 }
-.header-contacts:hover 
-{
+.header-contacts:hover {
   color: #434455;
   font-family: Roboto;
-  line-height:1.5;
-  letter-spacing:0.32px;
-  padding:24px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 24px;
 }
 
 .address {
@@ -99,14 +102,11 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
-
 .header-contacts-list {
   display: flex;
   gap: 40px;
   align-items: center;
-  font-style:italic;
-  /*display: inline-flex;*/
+  font-style: italic;
 }
 .header-contacts-link {
   color: #434455;
@@ -126,8 +126,7 @@ img {
 .hero {
   background: #2e2f42;
   padding: 188px 0px;
-  /*padding-top: 120px;
-  padding-bottom: 120px;*/
+ 
 }
 
 .hero-title {
@@ -168,7 +167,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   align-items: flex-start;
   justify-content: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-top: 48px;
 }
 
@@ -192,18 +191,19 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
-.visually-hidden 
-{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
 
 .feature-list {
   display: flex;
@@ -256,7 +256,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
- margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 .container-team {
   background-color: #f4f4fd;
@@ -266,12 +266,11 @@ img {
   display: flex;
   gap: 24px;
   margin-right: 24px;
- 
 }
 .team-list:last-child {
   margin-right: 0px;
 }
-.container name{
+.name {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -281,7 +280,10 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-
+.name {
+  padding-top: 32hpx;
+  padding-bottom: 32px;
+}
 .team-item-name {
   font-family: Roboto;
   font-size: 20px;
@@ -291,7 +293,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
-  padding-top: 32px;
 }
 
 .team-item-profession {
@@ -303,7 +304,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* section4*/
@@ -313,21 +313,24 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio content 
-{ padding: 32px 16px;
+.container portfolio {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
-.portfolio-list {  
+.content {
+  padding: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-  
-.portfolio-item 
-{
+
+.portfolio-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -336,8 +339,9 @@ img {
   margin-bottom: 8px;
 }
 
-.portfolio-item-card 
-{
+.portfolio-item-card {
+  display: block;
+  height: auto;
   font-size: 36px;
   line-height: 1.11;
   width: calc((100% - 48px) / 3);
@@ -349,8 +353,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  width: 264px;
 }
 
 /*footer*/
@@ -371,26 +373,17 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 101.5px;
-  margin-right: 156px;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
 
 .footer-accent {
   color: #f4f4fd;
 }
 
-.footer-descr 
-{
-  color:#f4f4fd;
+.footer-descr {
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: Roboto;
   max-width: 264px;
-  margin-top: 17.5px;
-  margin-right: 1020;
-  margin-bottom: 100px;
-  margin-left: 156px;
-  display: flex;
-  justify-content:center; }
+}
