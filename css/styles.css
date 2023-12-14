@@ -215,7 +215,7 @@ img {
 }
 
 .feature-item {
-  width: calc (100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -271,7 +271,7 @@ img {
 .team-list:last-child {
   margin-right: 0px;
 }
-.container name {
+.container name container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -313,7 +313,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-container container
+.portfolio content container
 { padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
