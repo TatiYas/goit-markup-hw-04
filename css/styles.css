@@ -76,7 +76,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  gap: 40px;
+  /*gap: 40px;*/
   display: flex;
   margin-right: auto;
   align-items: center;
@@ -95,6 +95,7 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  gap: 40px;
 }
 .header-contacts-list {
   display: flex;
