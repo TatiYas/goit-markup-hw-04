@@ -64,12 +64,12 @@ img {
 .header-container {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-  gap: 40px;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  gap: 40px;
 }
 .header-nav {
   color: #2e2f42;
