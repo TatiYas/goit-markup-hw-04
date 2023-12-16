@@ -51,7 +51,7 @@ img {
 }
 .header-link {
   display: block;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
   padding: 24px 0;
 }
 .header-link:hover,
@@ -77,18 +77,18 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  gap: 40px;
+  /*gap: 40px;*/
   display: flex;
   margin-right: auto;
   align-items: center;
 }
-.header-contacts:hover {
+/*.header-contacts:hover {
   color: #434455;
   font-family: Roboto;
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 24px;
-}
+}*/
 .address {
   font-style: normal;
 }
@@ -101,7 +101,7 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .header-contacts-link {
   color: #434455;
