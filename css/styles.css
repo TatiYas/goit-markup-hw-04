@@ -82,7 +82,11 @@ img {
   margin-right: auto;
   align-items: center;
 }
-/*.header-contacts:hover {
+.header-contacts {
+  font-style: normal;
+}
+
+/*hover {
   color: #434455;
   font-family: Roboto;
   line-height: 1.5;
@@ -118,7 +122,6 @@ img {
 .hero {
   background: #2e2f42;
   padding: 188px 0px;
- 
 }
 .hero-title {
   max-width: 496px;
@@ -176,18 +179,18 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .feature-list {
   display: flex;
   gap: 24px;
