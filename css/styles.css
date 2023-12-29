@@ -35,6 +35,7 @@ img {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   margin-right: 76px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-logo-accent {
   color: #2e2f42;
@@ -76,6 +77,8 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -124,6 +127,7 @@ img {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts-link:hover {
   color: #404bbf;
@@ -137,11 +141,15 @@ img {
 .hero {
   background: #2e2f42;
   padding: 188px 0px;
-  background-image: linear-gradient(#2E2F42B2.70%, #2E2F42B2.70%),
-    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 .hero-title {
   max-width: 496px;
@@ -181,6 +189,7 @@ img {
   justify-content: center;
   margin: 0 auto;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btm:hover {
   background-color: #404bbf;
@@ -385,6 +394,7 @@ img {
   line-height: 1.11;
   width: calc((100% - 48px) / 3);
   position: relative;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-card:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -430,6 +440,8 @@ img {
   transform: translateY(100%);
   transition: transform color, 250ms ease-in-out, background-color 250ms,
     cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-card:hover .overlay {
   transform: translateY(0);
