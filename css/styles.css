@@ -55,6 +55,7 @@ img {
   /*margin-right: 40px;*/
   padding: 24px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -354,6 +355,7 @@ img {
 .socials-item {
   width: 40px;
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link {
   display: flex;
@@ -423,10 +425,12 @@ img {
 
 .portfolio-item-card:hover {
   background-color: #4d5ae5;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-card:focus {
   background-color: #4d5ae5;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-descr {
