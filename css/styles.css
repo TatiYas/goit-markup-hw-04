@@ -498,11 +498,12 @@ img {
   align-items: baseline;*/
   margin-right: 120px;
 }
-.container-social {
+.container-social 
+/*{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 .f-socialmedia {
   /*display: flex;
   justify-content: center;
