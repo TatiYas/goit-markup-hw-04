@@ -488,6 +488,8 @@ img {
 .footer-container {
   padding: 100px 0;
   background-color: #2e2f42;
+  width: 1440px;
+  padding-left: 156px;
 }
 .footer-container {
   display: flex;
